@@ -22,14 +22,11 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!"><i class="fa-solid fa-layer-group"></i> Nuclei Human-AI study</a>
+                <a class="navbar-brand" href="#!"><i class="fa-solid fa-layer-group"></i> Nuclei Pathologist-AI study</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,11 +37,21 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-10">
                         <div class="text-center my-5">
-                            <h1 class="display-5 fw-bolder text-white mb-2">A human–AI collaboration framework enhances digital pathology</h1>
-                            <p class="lead text-white-50 mb-4">Combining human expertise with AI can significantly enhance the quality, speed, and confidence of surgical pathologists’ assessments, ultimately contributing to better clinical workflow and patient care.</p>
+                            <h1 class="display-5 fw-bolder text-white mb-2">A pathologist–AI collaboration framework for enhancing diagnostic accuracies and efficiencies</h1>
+                            <p class="lead text-white-50 mb-4">
+                                <small><a href="https://www.zhihuang.ai?a=nuclei-hai", target="_blank" style="color:lightskyblue">Zhi Huang</a><sup>1,2</sup>, Eric Yang<sup>1</sup>, Jeanne Shen<sup>1</sup>, Dita Gratzinger<sup>1</sup>, Frederick Eyerer<sup>1</sup>, Brooke Liang<sup>1</sup>, Jeffrey Nirschl<sup>1</sup>, David Bingham<sup>1</sup>, Alex M. Dussaq<sup>1</sup>, Christian Kunder<sup>1</sup>, Rebecca Rojansky<sup>1</sup>, Aubre Gilbert<sup>1</sup>, Alexandra L. Chang-Graham<sup>1</sup>, Brooke E. Howitt<sup>1</sup>, Ying Liu<sup>1</sup>, Emily E. Ryan<sup>1</sup>, Troy B. Tenney<sup>1</sup>, Xiaoming Zhang<sup>1</sup>, Ann Folkins<sup>1</sup>, Edward J. Fox<sup>1</sup>, Kathleen S. Montine<sup>1</sup>, Thomas J. Montine<sup>1,*</sup>, James Zou<sup>2,*</sup></small>
+                            </p>
+                            <p class="lead text-white-50 mb-4 small">
+                                <small>
+                                    <sup>1</sup> Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305, USA<br>
+                                    <sup>2</sup> Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, CA 94305, USA
+                                </small>
+                            </p>
+
+
+                            <!--p class="lead text-white-50 mb-4">Combining human expertise with AI can significantly enhance the quality, speed, and confidence of surgical pathologists’ assessments, ultimately contributing to better clinical workflow and patient care.</p-->
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Resources</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +113,7 @@
                         </div>
                     </div>
                     <ul>
-                        <li><i class="fa-regular fa-handshake"></i> <strong>Human-AI</strong> collaboration framework.</li>
+                        <li><i class="fa-regular fa-handshake"></i> <strong>Pathologist-AI</strong> collaboration framework.</li>
                         <li><i class="fa-solid fa-arrow-rotate-left"></i> <strong>Active learning</strong> with human-in-the-loop.</li>
                         <li><i class="fa-solid fa-bolt"></i> <strong>Rapidly create a dataset</strong> in real-time.</li>
                         <li><i class="fa-regular fa-thumbs-up"></i> <strong>Faster and Better</strong> diagnosis.</li>
@@ -116,7 +123,7 @@
                 <div class="portfolio-description">
                     <h2>Takeaway message</h2>
                     <p>
-                        Nuclei.io enables pathologists to rapidly create diverse datasets and models for multiple clinically critical applications. To validate the effectiveness of this framework, we perform two cross-over user studies using a human–AI collaborative approach. In both studies, the use of AI yielded considerable improvements in sensitivity, certainty, and efficiency in pathological diagnosis. Our findings validate the proposed human-in-the-loop framework, and suggest that human–AI collaboration holds the potential to revolutionize digital pathology, ultimately leading to improved quality, efficiency, and cost.
+                        Nuclei.io enables pathologists to rapidly create diverse datasets and models for multiple clinically critical applications. To validate the effectiveness of this framework, we perform two cross-over user studies using a pathologist–AI collaborative approach. In both studies, the use of AI yielded considerable improvements in sensitivity, certainty, and efficiency in pathological diagnosis. Our findings validate the proposed human-in-the-loop framework, and suggest that pathologist–AI collaboration holds the potential to revolutionize digital pathology, ultimately leading to improved quality, efficiency, and cost.
                     </p>
                 </div>
                 </div>
@@ -134,31 +141,39 @@
             <div class="container px-5 my-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                        <h2 class="h4 fw-bolder">Nuclei.io framework</h2>
-                        <p>The repository of nuclei.io</p>
-                        <a class="text-decoration-none" href="https://github.com/huangzhii/nuclei.io">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-terminal-fill"></i></div>
+                        <h2 class="h4 fw-bolder">Nuclei.io software</h2>
+                        <p>The repository of nuclei.io software</p>
+                        <a class="text-decoration-none" href="https://github.com/huangzhii/nuclei.io" target="_blank">
                             Access the repo
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder">AI Model</h2>
-                        <p>The AI model developed for plasma cell ientification and CRC lymph node identification.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Coming soon
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-filetype-py"></i></div>
+                        <h2 class="h4 fw-bolder">Machine learning model</h2>
+                        <p>The code for the model developed for plasma cell identification and CRC lymph node identification.</p>
+                        <a class="text-decoration-none" href="https://github.com/huangzhii/nuclei.io_study_training_scripts" target="_blank">
+                            Access the repo
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-database-fill-down"></i></div>
                         <h2 class="h4 fw-bolder">Nuclei data</h2>
                         <p>The dataset (with RGB image patch and label) that annotated by pathologists.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Coming soon
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <div>
+                            <a class="text-decoration-none" href="https://zenodo.org/records/11101282" target="_blank">
+                                CRC lymph node metastasis nuclei dataset
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="text-decoration-none" href="https://zenodo.org/records/11101664" target="_blank">
+                                Plasma cell nuclei dataset
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -166,7 +181,7 @@
 
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; <a href="https://web.stanford.edu/~zhihuang/?a=nuclei" style="color: lightskyblue">Zhi Huang</a> at Stanford 2023</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">Contact: <a href="https://www.zhihuang.ai/?a=nuclei-hai" style="color: lightskyblue">Zhi Huang</a> @ Stanford 2024</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
